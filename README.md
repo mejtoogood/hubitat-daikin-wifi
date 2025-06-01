@@ -1,5 +1,11 @@
 # Hubitat driver - Daikin WiFi Split System
 
+Forked to suit Daikin BRP15B61 Wireless LAN Adapter
+- changed /aircon/ endpoints to /skyfi/aircon/
+- changed some field mappings
+
+# Original Readme
+
 Add driver code from daikin-wifi-split-system-hubitat.groovy to hub and add new device type Daikin WiFi Split System Hubitat.
 
 Settings should be self-explanatory. Be careful using refresh interval 1 minute, its barely supported.
